@@ -285,7 +285,7 @@ body.dark-theme .moon-icon {
 }
 
 #zerotwoButton {
-    padding: 12px 24px;
+    padding: 12px 12px;
     font-size: 16px;
     font-weight: 600;
     color: var(--text-color);
@@ -295,8 +295,8 @@ body.dark-theme .moon-icon {
     cursor: pointer;
     transition: all 0.3s ease;
     position: fixed;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    left: 10px;
     z-index: 1000;
     box-shadow: 0 2px 8px var(--shadow);
 }

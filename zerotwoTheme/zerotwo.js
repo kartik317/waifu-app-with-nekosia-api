@@ -20,7 +20,7 @@ document.getElementById('themeToggle').addEventListener('click', toggleTheme);
 
 const fetchZerotwoImage =  async () => {
     try {
-        const res = await fetch('https://zerotwoapi.onrender.com/api/images');
+        const res = await fetch('https://zerotwoapi.onrender.com/api/images/random/10');
         const data = await res.json();
         return data;
     } catch (err) {
